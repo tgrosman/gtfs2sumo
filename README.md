@@ -18,14 +18,14 @@
 - Offers an option to generate maps for transparency and additional information with `verbose`.
 - For more options, check out [`convert_gtfs2sumo.py`](convert_gtfs2sumo.py).
 - Complementary to [gtfs2pt.py](https://github.com/eclipse-sumo/sumo/blob/main/tools/import/gtfs/gtfs2pt.py).
-- It is highly recommended to reduce the [GTFS](https://gtfs.org/) feed to the wanted routes first before using `**`Gtfs2Sumo`. This helps to focus on relevant data and ensures more efficient processing.
+- It is highly recommended to reduce the [GTFS](https://gtfs.org/) feed to the wanted routes first before using `gtfs2sumo`. This helps to focus on relevant data and ensures more efficient processing.
 
 ## 🔧 Installation
 
 We recommend using a virtual environment to manage dependencies.
-Create and activate a virtual environment with Python version `3.11.10` 
+Create and activate a virtual environment with Python version `3.11.10`. 
 ```bash
-    pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 
