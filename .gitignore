@@ -1,0 +1,23 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+
+# Environment
+.env
+.venv
+env/
+venv/
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+log/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Output
+output/
+out/
