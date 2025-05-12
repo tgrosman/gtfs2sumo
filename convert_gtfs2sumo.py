@@ -805,7 +805,7 @@ class GTFS2SUMO:
         )
         # Execute routechecker from within the notebook
         routechecker_output = gtfs2sumo.execute_routechecker(
-            "/usr/local/Cellar/sumo/1.20.0/share/sumo/tools/route/routecheck.py",
+            get_routechecker(),
             self._NET_FILE_PATH,
             routes_path,
         )
